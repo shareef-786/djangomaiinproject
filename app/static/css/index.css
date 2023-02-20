@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+}
+.nav-link{
+    color: brown;
+    
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.3s;
+
+}
+.nav-item{
+    color:green;
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0{
+    height: 53px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: red;
+    cursor:white;
+    transition: all 0.4s;
+    background-color:blue;
+}
+.btn0:hover{
+    background: rgb( rgb(71, 118, 71),);
+    transition: all 0.4s;
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: rgb(196, 67, 67);
+    color: red;
+    outline: none;
+    transition: all 0.4s;
+    border: 2px solid red;
+}    
+
+
+.btn1:hover{
+    background-color: rgb(196, 67, 67);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+    
+
+}
+/*=========================================== main section========================================================*/
+.main{
+    background: url(./laptap.jpg);
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(97, 49, 141);
+}
+.main input{
+    height: 72px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.btn-2{
+    height: 70px;
+    width: 10%;
+    background-color: rgb(196, 67, 67);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0 4s;
+    margin-left: -4px;
+
+}
+.btn-2:hover{
+    background: rgb(71, 118, 71);
+    transition: all o.4s;
+
+}
+
+/* =========================ceta=============================*/
+.red
+{
+    color: red;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7 , 7, 7);
+
+}
+.a
+{
+    height: 120px;
+    width: 100px;
+}
+.c
+{
+    height: 100px;
+    width: 100px;
+}
+.e
+{
+    height: 0px;
+    width: 0px;
+}
+.shareef
+{
+    background-color:red;
+}
+
+/* ===============================================================================*/
+.resume
+{
+    background: url(./treee.jpg) no-repeat;
+    background-size: cover;
+    height: 9ovh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+/*=======================================================================================*/
+.job h1{
+    font-size: 3.8rem;
+    color: rgb(7, 4, 6);
+    
+}
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: aqua;
+}
+.apply{
+    background: url(./background\ img\ 4.jpg)no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: white;
+
+}
+.cir1 img{
+    border-radius: 50%;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius:4px ;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: 1px solid;
+}
+
+/* google poppins font cdn link */
+@import url(https://fonts.googleapis.com/icon?family=material+icons);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+.root{
+  --primary-font-family:'poppins',sans-serif;
+  --light-white:white(155, 57, 57);
+  --gray:gray;
+  --gray-1:gray;
+}
+body{
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+
+}
+
+/* main css */
+.wrapper{
+  padding: 0 0 100px;
+  background-image: url("./background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.wrapper .logo img{
+  max-width: 40%;
+
+}
+.wrapper input{
+  background-color: var(--light-white);
+  background-color: var(--light-white);
+  color: var(--gray);
+}
+.wrapper input:focus{
+  box-shadow: none;
+}
+.wrapper .submit-btn{
+  padding: 15px;
+  font-weight: 500;
+}
+.wrapper .login_with{
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.wrapper .submit-btn:focus,
+.wrapper .login_with:focus{
+  box-shadow: none;
+}
+.wrapper .login_with :hover{
+  background-color: var(--gray--1);
+  border-color: var(--gray--1);
+
+}
+.wrapper .login_with img{
+  max-width: 8%;
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.head{
+    background: url(./background\ img3.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
